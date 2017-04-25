@@ -1,6 +1,6 @@
 # npmtest-cordova-plugin-sim
 
-#### test coverage for  [cordova-plugin-sim (v1.3.3)](https://github.com/pbakondy/cordova-plugin-sim#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-cordova-plugin-sim.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-cordova-plugin-sim) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-cordova-plugin-sim.svg)](https://travis-ci.org/npmtest/node-npmtest-cordova-plugin-sim)
+#### basic test coverage for  [cordova-plugin-sim (v1.3.3)](https://github.com/pbakondy/cordova-plugin-sim#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-cordova-plugin-sim.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-cordova-plugin-sim) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-cordova-plugin-sim.svg)](https://travis-ci.org/npmtest/node-npmtest-cordova-plugin-sim)
 
 #### A plugin to get the device's SIM data (carrier name, mcc mnc, country code, telephonenumber, imei, etc)
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-cordova-plugin-sim/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-cordova-plugin-sim/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-cordova-plugin-sim/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-cordova-plugin-sim/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-cordova-plugin-sim/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-cordova-plugin-sim/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-cordova-plugin-sim/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-cordova-plugin-sim/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-cordova-plugin-sim/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-cordova-plugin-sim/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-cordova-plugin-sim/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-cordova-plugin-sim/build/coverage.html/index.html)
 
@@ -94,7 +94,8 @@
         "url": "git+https://github.com/pbakondy/cordova-plugin-sim.git"
     },
     "scripts": {},
-    "version": "1.3.3"
+    "version": "1.3.3",
+    "bin": {}
 }
 ```
 
